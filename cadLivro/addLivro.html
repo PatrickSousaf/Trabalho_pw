@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="addLivro.css">
+    <title>Adicionar-livro</title>
+</head>
+<body>
+    <header class="header">
+    </header>
+    <section class="home"> 
+        <div class="box">
+            <h2>adicionar livro</h2>
+            <form action="../back/biblioteca.php" method="post" enctype="multipart/form-data">
+                <div class="input-box">
+
+                    <label for="autor">autor</label>
+                    <input type="text" name="autor" id="autor">
+
+                    <label for="titulo">titulo</label>
+                    <input type="text" name="titulo" id="titulo">
+
+                    <label for="subtitulo">subtitulo</label>
+                    <input type="text" name="subtitulo" id="subtitulo">
+
+                    <label for="edicao">edição</label>
+                    <input type="text" name="edicao" id="edicao">
+
+                    <label for="editora">editora</label>
+                    <input type="text" name="editora" id="editora">
+
+                    <label for="ano">ano de lançamento</label>
+                    <input type="number" name="ano" id="ano">
+                </div>
+                <input type="submit" value="Salvar" class="btn-save">
+            </form>
+        </div>
+    </section>
+</body>
+</html>

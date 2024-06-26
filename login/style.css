@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dangrek&display=swap');
+
+body{
+    background: url(neon-light-bathroom-sign-night.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+label{
+    color: #f1f1f1;
+    font-family: "DM Serif Text", serif;
+}
+
+p{
+    color: #A6A6A6;
+    position: relative;
+    margin-right: 350px;
+    text-align: left;
+    float: left;
+    font-family: "Dangrek", sans-serif;
+    font-style: normal;
+    top: 15px;
+}
+
+input[type=text], input[type=password], input[type=email]{
+    width: 400px;
+    padding: 10px 10px;
+    color: white;
+    margin: 6px 0;
+    border: 1px solid #878787;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background: transparent;
+    font-family: "DM Serif Text", serif;
+}
+
+button {
+    width: 300px;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: #351B59;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: "DM Serif Text", serif;
+    transition: all 0.3s ease-out;
+}
+
+#box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+    width: 500px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    background: #202022;
+    box-shadow: 0px 0px 100px rgb(82, 1, 175);
+}
+
+button:hover{
+    background-color: #8D69BF ;
+    transform: scale(1.1);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.imgcontainer{
+    height: 100%;
+    width:  100%;
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+.container{
+    height: 100vh;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+span{
+    color: #f1f1f1;
+    margin: 10px 0;
+    font-family: "DM Serif Text", serif;    
+}
+
+input::-webkit-input-placeholder {
+    opacity: 0.5;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+  }
+
+a{
+    font-family: "DM Serif Text", serif;
+    color: #A8B5BF; 
+}
+
+h7{
+    color: white;
+}
